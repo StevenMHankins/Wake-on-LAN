@@ -12,8 +12,8 @@ $nics = Get-WmiObject Win32_NetworkAdapter -filter "AdapterTypeID = '0' `
                                                     AND NOT Description LIKE '%Centrino%' `
                                                     AND NOT Description LIKE '%wireless%' `
                                                     AND NOT Description LIKE '%WiFi%' `
-													AND NOT Description LIKE '%VPN%' `
-													AND NOT Description LIKE '%Virtual%' `
+						    AND NOT Description LIKE '%VPN%' `
+						    AND NOT Description LIKE '%Virtual%' `
                                                     AND NOT Description LIKE '%Bluetooth%'"
 													
  
